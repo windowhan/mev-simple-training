@@ -1,0 +1,23 @@
+   Compiling winner_bot v0.1.0 (/Users/hojunghan/Desktop/Zellic-Tasks/mev-simple-training/artemis/bin/winner_bot)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.58s
+     Running `target/debug/winner_bot`
+Starting Winner Bot!
+Target contract: 0xcf7e…0fc9
+Bot address: 0x7099…79c8
+Setting up engine...
+Starting engine...
+Listening for transactions...
+Processing transaction: 0x1f8c07d35f889af4283fa1ddecb7a2d057a68487f3403011f4813bc7655fb35e
+Transaction to: Some(0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9)
+Target contract: 0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2000000000 wei
+Boosted gas price: 2400000000 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x4c02555cb950b83bc09b6e5266d902e3a0e00322ce95d224768293a3ebdf0622
+Processing transaction: 0x4c02555cb950b83bc09b6e5266d902e3a0e00322ce95d224768293a3ebdf0622
+Transaction to: Some(0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9)
+Target contract: 0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+Skipping our own transaction

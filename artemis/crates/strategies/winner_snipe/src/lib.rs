@@ -42,6 +42,12 @@ impl Strategy<Events, Actions> for WinnerSnipe {
                 
                 // Check if this transaction calls setWinner() on our target contract
                 if tx.to == Some(self.target_contract) {
+                    // Skip if this is our own transaction to avoid infinite loop
+                    if tx.from == self.my_address {
+                        println!("Skipping our own transaction");
+                        return vec![];
+                    }
+                    
                     println!("Transaction targets our contract!");
                     
                     // setWinner() function selector is 0xed05084e

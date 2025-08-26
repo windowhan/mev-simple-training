@@ -1,0 +1,971 @@
+warning: field `my_address` is never read
+  --> crates/strategies/winner_snipe/src/lib.rs:16:5
+   |
+14 | pub struct WinnerSnipe {
+   |            ----------- field in this struct
+15 |     target_contract: Address,
+16 |     my_address: Address,
+   |     ^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: `winner_snipe` (lib) generated 1 warning
+   Compiling winner_bot v0.1.0 (/Users/hojunghan/Desktop/Zellic-Tasks/mev-simple-training/artemis/bin/winner_bot)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.78s
+     Running `target/debug/winner_bot`
+Starting Winner Bot!
+Target contract: 0x9fe4…a6e0
+Bot address: 0x7099…79c8
+Setting up engine...
+Starting engine...
+Listening for transactions...
+Processing transaction: 0xb9e6f9c4beb298b2d806248a1308765e88b6888117cf14561f6807dff697261c
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2000000000 wei
+Boosted gas price: 2400000000 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xf618398903441dce21a879f79fc223041c35e0b88dee71ee3e066dd1189f921c
+Processing transaction: 0xf618398903441dce21a879f79fc223041c35e0b88dee71ee3e066dd1189f921c
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2400000000 wei
+Boosted gas price: 2880000000 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xdb008f4cc7f2645ac907b460f4f80496da188c12838273086cf5f6ea0307c1a8
+Processing transaction: 0xdb008f4cc7f2645ac907b460f4f80496da188c12838273086cf5f6ea0307c1a8
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2880000000 wei
+Boosted gas price: 3456000000 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xcaed0c60fe92ac2807c1a2ea49ed255e501c7622356ba05ffa5c69ae35524f75
+Processing transaction: 0xcaed0c60fe92ac2807c1a2ea49ed255e501c7622356ba05ffa5c69ae35524f75
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 3456000000 wei
+Boosted gas price: 4147200000 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x0ab801c12df044ec6cc7df8ae16d659d9b1fc23b2163ba30dd187b58bd3f7abe
+Processing transaction: 0x0ab801c12df044ec6cc7df8ae16d659d9b1fc23b2163ba30dd187b58bd3f7abe
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 4147200000 wei
+Boosted gas price: 4976640000 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x8559a858a33b71c370da8434b96514564e77bc246c3f2da63591ca389a34e72b
+Processing transaction: 0x8559a858a33b71c370da8434b96514564e77bc246c3f2da63591ca389a34e72b
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 4976640000 wei
+Boosted gas price: 5971968000 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x792ea5e6bf9dc24127f91163f3ab0008688fbb27e105d4e1062865536730f09c
+Processing transaction: 0x792ea5e6bf9dc24127f91163f3ab0008688fbb27e105d4e1062865536730f09c
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 5971968000 wei
+Boosted gas price: 7166361600 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x9377b80ba5f3a620b55e7f66c816096d9f5766607455829f586d5d19602d6845
+Processing transaction: 0x9377b80ba5f3a620b55e7f66c816096d9f5766607455829f586d5d19602d6845
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 7166361600 wei
+Boosted gas price: 8599633920 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x28685aef2c57a0d1c41bfb3c7f5f57d0e0dd3664155a22f92cf1d56fc6009e77
+Processing transaction: 0x28685aef2c57a0d1c41bfb3c7f5f57d0e0dd3664155a22f92cf1d56fc6009e77
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 8599633920 wei
+Boosted gas price: 10319560704 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xbff2e8ade34189560feed8d88ea81159ed6d99cac37f84f19035bbfc132b651d
+Processing transaction: 0xbff2e8ade34189560feed8d88ea81159ed6d99cac37f84f19035bbfc132b651d
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 10319560704 wei
+Boosted gas price: 12383472844 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x1cbcf182d0a6ca939fcbc2058ecfd3d5a964b5bc33acfe2f2275e19ccd2aa466
+Processing transaction: 0x1cbcf182d0a6ca939fcbc2058ecfd3d5a964b5bc33acfe2f2275e19ccd2aa466
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 12383472844 wei
+Boosted gas price: 14860167412 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xb49426b4126c1802070cfe9da860e9c4ac03f993fd5013de942f8418030ddd3f
+Processing transaction: 0xb49426b4126c1802070cfe9da860e9c4ac03f993fd5013de942f8418030ddd3f
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 14860167412 wei
+Boosted gas price: 17832200894 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x88faa81941778957e1e1b74f6e2bb025d31ab7b7456644549dd893a42264414e
+Processing transaction: 0x88faa81941778957e1e1b74f6e2bb025d31ab7b7456644549dd893a42264414e
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 17832200894 wei
+Boosted gas price: 21398641072 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x79dda18e5a1f27411135b1950ebdd64db0fe69042ef3bf753925d0d66e2c95be
+Processing transaction: 0x79dda18e5a1f27411135b1950ebdd64db0fe69042ef3bf753925d0d66e2c95be
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 21398641072 wei
+Boosted gas price: 25678369286 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x4e8a9203b7ad1ae259a0c39115867e6f813a0d9b67c62489ea62146951f77c70
+Processing transaction: 0x4e8a9203b7ad1ae259a0c39115867e6f813a0d9b67c62489ea62146951f77c70
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 25678369286 wei
+Boosted gas price: 30814043143 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xd866076c144fb44fe41951c5feec6164c106e5aa404c89775c2ad42958e6bec4
+Processing transaction: 0xd866076c144fb44fe41951c5feec6164c106e5aa404c89775c2ad42958e6bec4
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 30814043143 wei
+Boosted gas price: 36976851771 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xf27b8479f724453366a16e469f68edcac681d1fcd5f9e6a6915e03966bff669f
+Processing transaction: 0xf27b8479f724453366a16e469f68edcac681d1fcd5f9e6a6915e03966bff669f
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 36976851771 wei
+Boosted gas price: 44372222125 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x6e11ec2292416180c30b64a2f07e121a301cc18f0eb98814e0680cd7766258a3
+Processing transaction: 0x6e11ec2292416180c30b64a2f07e121a301cc18f0eb98814e0680cd7766258a3
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 44372222125 wei
+Boosted gas price: 53246666550 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x61d30998db679bf025f78f8b32cf1c7b83f62155cf9cabfd8c80c4f9496b19e7
+Processing transaction: 0x61d30998db679bf025f78f8b32cf1c7b83f62155cf9cabfd8c80c4f9496b19e7
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 53246666550 wei
+Boosted gas price: 63895999860 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xac0852798733d3a8974bcc05f53a351a178f34ed5be1c2a84ffbebc28aea0392
+Processing transaction: 0xac0852798733d3a8974bcc05f53a351a178f34ed5be1c2a84ffbebc28aea0392
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 63895999860 wei
+Boosted gas price: 76675199832 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xad581f17f1d02189d6bd35f71bfc10390449bbc7f89ff9e493bdf6c26928a242
+Processing transaction: 0xad581f17f1d02189d6bd35f71bfc10390449bbc7f89ff9e493bdf6c26928a242
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 76675199832 wei
+Boosted gas price: 92010239798 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xd10d50782f45b041d9a7845821fce45ad9a737e0b70a89688ae4c8c7081ee4ac
+Processing transaction: 0xd10d50782f45b041d9a7845821fce45ad9a737e0b70a89688ae4c8c7081ee4ac
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 92010239798 wei
+Boosted gas price: 110412287757 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x188d816ba1ebe827f1313e623d4e3ef1dd4bcbc3ee65b667643d3bd97a09c95e
+Processing transaction: 0x188d816ba1ebe827f1313e623d4e3ef1dd4bcbc3ee65b667643d3bd97a09c95e
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 110412287757 wei
+Boosted gas price: 132494745308 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xbb8c01dd04c0ede6dfed40fe11ef31848d1f521a3f670c31b208e6f106c6b5ef
+Processing transaction: 0xbb8c01dd04c0ede6dfed40fe11ef31848d1f521a3f670c31b208e6f106c6b5ef
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 132494745308 wei
+Boosted gas price: 158993694369 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x624769aade4fd428e5df78af7ee769058a059d8a1939a9f9e55d8dbda8eff676
+Processing transaction: 0x624769aade4fd428e5df78af7ee769058a059d8a1939a9f9e55d8dbda8eff676
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 158993694369 wei
+Boosted gas price: 190792433242 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xa8f9ed148496f9745d5800266c0e03e92fa0b46913b31d5cdb478bd640afe101
+Processing transaction: 0xa8f9ed148496f9745d5800266c0e03e92fa0b46913b31d5cdb478bd640afe101
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 190792433242 wei
+Boosted gas price: 228950919890 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x82641baa7a0e9cae82a4b4d45d693086b74fc7903c7ab2257525cff158daa0c1
+Processing transaction: 0x82641baa7a0e9cae82a4b4d45d693086b74fc7903c7ab2257525cff158daa0c1
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 228950919890 wei
+Boosted gas price: 274741103868 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xba9578da6dc958d620c7dcba71cb0c8bf043fdead5e406b96e4a637246287360
+Processing transaction: 0xba9578da6dc958d620c7dcba71cb0c8bf043fdead5e406b96e4a637246287360
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 274741103868 wei
+Boosted gas price: 329689324641 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x8a85940f7252ddc92750cf6f51f93b9ec2a3a76a798d32af5ade8947f495765f
+Processing transaction: 0x8a85940f7252ddc92750cf6f51f93b9ec2a3a76a798d32af5ade8947f495765f
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 329689324641 wei
+Boosted gas price: 395627189569 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x1f4d3821d8579145f45a0ace13ee8da72a081076e54df160c83f650b6d0098e6
+Processing transaction: 0x1f4d3821d8579145f45a0ace13ee8da72a081076e54df160c83f650b6d0098e6
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 395627189569 wei
+Boosted gas price: 474752627482 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xedfaf2f6981ffaf73f346cee3d5912b93b980299bd0f5e2685e02cd7d074112c
+Processing transaction: 0xedfaf2f6981ffaf73f346cee3d5912b93b980299bd0f5e2685e02cd7d074112c
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 474752627482 wei
+Boosted gas price: 569703152978 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x82cf930da9ace7f9b1cd4eaafde527b61d55a723447557e8aca0101c7e4d4f12
+Processing transaction: 0x82cf930da9ace7f9b1cd4eaafde527b61d55a723447557e8aca0101c7e4d4f12
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 569703152978 wei
+Boosted gas price: 683643783573 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xf0e918a377126b212c62429180d67c46e6adbbc8bca2905e583e728abaed7218
+Processing transaction: 0xf0e918a377126b212c62429180d67c46e6adbbc8bca2905e583e728abaed7218
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 683643783573 wei
+Boosted gas price: 820372540287 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xb20e068e7864530ecda8da61111589d3beecb9ef5049ec51b94c9e6c186bd028
+Processing transaction: 0xb20e068e7864530ecda8da61111589d3beecb9ef5049ec51b94c9e6c186bd028
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 820372540287 wei
+Boosted gas price: 984447048344 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x23cdbe295fe4506be3ef2a5122f76a39544cf563cacb383daf213bfbfd73b19b
+Processing transaction: 0x23cdbe295fe4506be3ef2a5122f76a39544cf563cacb383daf213bfbfd73b19b
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 984447048344 wei
+Boosted gas price: 1181336458012 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x95081e78defd6c421c8fddc52cd51542ee962ed1ea7c78d218d5d4bc734d0932
+Processing transaction: 0x95081e78defd6c421c8fddc52cd51542ee962ed1ea7c78d218d5d4bc734d0932
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 1181336458012 wei
+Boosted gas price: 1417603749614 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xa8ad3f556130539831d3feddb4b51d1e4f447d4510bde3ea8d53f61aea9fc82a
+Processing transaction: 0xa8ad3f556130539831d3feddb4b51d1e4f447d4510bde3ea8d53f61aea9fc82a
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 1417603749614 wei
+Boosted gas price: 1701124499536 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x53cba8d51a55f875626ba344d10bdfb86c8d7a65874c6c1115ffec05a8fc5de5
+Processing transaction: 0x53cba8d51a55f875626ba344d10bdfb86c8d7a65874c6c1115ffec05a8fc5de5
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 1701124499536 wei
+Boosted gas price: 2041349399443 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x4439f366314ead0636d85a5d5afa0bbe4e2d72eb97458c2aaab8c529d7266eaa
+Processing transaction: 0x4439f366314ead0636d85a5d5afa0bbe4e2d72eb97458c2aaab8c529d7266eaa
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2041349399443 wei
+Boosted gas price: 2449619279331 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xcd8f45d7654a2d11c03df4ca34c8a6f006c5b6c07d6b19a9c55f0476f02c5e71
+Processing transaction: 0xcd8f45d7654a2d11c03df4ca34c8a6f006c5b6c07d6b19a9c55f0476f02c5e71
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2449619279331 wei
+Boosted gas price: 2939543135197 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xd762fd72f4c2a76c27d3b9311095277c9e9aa346a46fe2b7c0cd9f6ff02d6979
+Processing transaction: 0xd762fd72f4c2a76c27d3b9311095277c9e9aa346a46fe2b7c0cd9f6ff02d6979
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2939543135197 wei
+Boosted gas price: 3527451762236 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x7b37ca9b8b7d5126aa79a88095412b529757a4cbfba9769f0a73df47f0767784
+Processing transaction: 0x7b37ca9b8b7d5126aa79a88095412b529757a4cbfba9769f0a73df47f0767784
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 3527451762236 wei
+Boosted gas price: 4232942114683 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xecc900d4961fe8705ea8be37add6e906030adb431ee12d976f22e47caf5e1adb
+Processing transaction: 0xecc900d4961fe8705ea8be37add6e906030adb431ee12d976f22e47caf5e1adb
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 4232942114683 wei
+Boosted gas price: 5079530537619 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xd0c374c61286f9adc1213412fdce15a652b8589cd2c861dd44a8409f8f081059
+Processing transaction: 0xd0c374c61286f9adc1213412fdce15a652b8589cd2c861dd44a8409f8f081059
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 5079530537619 wei
+Boosted gas price: 6095436645142 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x4137a7b4c70ba943ca243a5aea91143c09c6a41c8b18910a4d17d4c098bca497
+Processing transaction: 0x4137a7b4c70ba943ca243a5aea91143c09c6a41c8b18910a4d17d4c098bca497
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 6095436645142 wei
+Boosted gas price: 7314523974170 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xde06f7b141b5d0b9f9c18b3f54d8ba10e3939d33dfa714251fcf02c64d5e73a6
+Processing transaction: 0xde06f7b141b5d0b9f9c18b3f54d8ba10e3939d33dfa714251fcf02c64d5e73a6
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 7314523974170 wei
+Boosted gas price: 8777428769004 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x29d8fb18d996fdf0054321b3bbb41d45c6f2be725b7c7ff47c2bda2f8524e14d
+Processing transaction: 0x29d8fb18d996fdf0054321b3bbb41d45c6f2be725b7c7ff47c2bda2f8524e14d
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 8777428769004 wei
+Boosted gas price: 10532914522804 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xdc32f81f9122d1d9d252c18cd989fa27b7a3b7590aa7a2ef259c48c681017e35
+Processing transaction: 0xdc32f81f9122d1d9d252c18cd989fa27b7a3b7590aa7a2ef259c48c681017e35
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 10532914522804 wei
+Boosted gas price: 12639497427364 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x58539a5b1b0444dff03e22862ad7e7f0bc7d7fbaf16473725a260fc21b3c2592
+Processing transaction: 0x58539a5b1b0444dff03e22862ad7e7f0bc7d7fbaf16473725a260fc21b3c2592
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 12639497427364 wei
+Boosted gas price: 15167396912836 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xfcf59edfb46ad6e5dfc6d6d14b26491eb6049ab2019a9cd0f0f75a8f12e796d8
+Processing transaction: 0xfcf59edfb46ad6e5dfc6d6d14b26491eb6049ab2019a9cd0f0f75a8f12e796d8
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 15167396912836 wei
+Boosted gas price: 18200876295403 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x8dcfd1ce7ad8ae793e34762ad01bee80059501c7f37bcbec742744f82911c5b4
+Processing transaction: 0x8dcfd1ce7ad8ae793e34762ad01bee80059501c7f37bcbec742744f82911c5b4
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 18200876295403 wei
+Boosted gas price: 21841051554483 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x966e835f6afc99499a41c04407590a1775e0d583e7c6b600e94e3cefb2e732fd
+Processing transaction: 0x966e835f6afc99499a41c04407590a1775e0d583e7c6b600e94e3cefb2e732fd
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 21841051554483 wei
+Boosted gas price: 26209261865379 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x7d560ac8fb5eac5623a58588fd965285789dba0e40c18963ebc3f5daba6ad810
+Processing transaction: 0x7d560ac8fb5eac5623a58588fd965285789dba0e40c18963ebc3f5daba6ad810
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 26209261865379 wei
+Boosted gas price: 31451114238454 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x79469293ef0a908394ce5c25b9b730399ab7809704b0dc43a0574b6b6369bf33
+Processing transaction: 0x79469293ef0a908394ce5c25b9b730399ab7809704b0dc43a0574b6b6369bf33
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 31451114238454 wei
+Boosted gas price: 37741337086144 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xe0e8d05dc25366ca8d5a089a72e69e2d776d117d9bc9d83662db0d07894d63d5
+Processing transaction: 0xe0e8d05dc25366ca8d5a089a72e69e2d776d117d9bc9d83662db0d07894d63d5
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 37741337086144 wei
+Boosted gas price: 45289604503372 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x2a79fcce40919656c59d277f85d90bf10c26ed7886551dbc79a8192964b63732
+Processing transaction: 0x2a79fcce40919656c59d277f85d90bf10c26ed7886551dbc79a8192964b63732
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 45289604503372 wei
+Boosted gas price: 54347525404046 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x6d88eaa4f2a77921487cbb6a19a974e6eb899b90ecf210dbfab20736fbd34897
+Processing transaction: 0x6d88eaa4f2a77921487cbb6a19a974e6eb899b90ecf210dbfab20736fbd34897
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 54347525404046 wei
+Boosted gas price: 65217030484855 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xd9b8412b6a3090a0c5bd64f78cbb4aeba6c2d1a1b03e62f44170096f8f8b5a27
+Processing transaction: 0xd9b8412b6a3090a0c5bd64f78cbb4aeba6c2d1a1b03e62f44170096f8f8b5a27
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 65217030484855 wei
+Boosted gas price: 78260436581826 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x10bbca418dcf32a4ceb16c9a170315334c695eb6fc1562fa9139093d132e9729
+Processing transaction: 0x10bbca418dcf32a4ceb16c9a170315334c695eb6fc1562fa9139093d132e9729
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 78260436581826 wei
+Boosted gas price: 93912523898191 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xf4b19a8e3feb222c7d2bbc61f59060812512ba966cc445fd35d60716ad459566
+Processing transaction: 0xf4b19a8e3feb222c7d2bbc61f59060812512ba966cc445fd35d60716ad459566
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 93912523898191 wei
+Boosted gas price: 112695028677829 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x92eda77904e4f7fe8ad95c6c41183bf8508d809644268a436cc3d70a2a76f166
+Processing transaction: 0x92eda77904e4f7fe8ad95c6c41183bf8508d809644268a436cc3d70a2a76f166
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 112695028677829 wei
+Boosted gas price: 135234034413394 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x0db9b0b9cbb408b2848bd29242e84e3af100658064b1c4b924255a94e4fb8a93
+Processing transaction: 0x0db9b0b9cbb408b2848bd29242e84e3af100658064b1c4b924255a94e4fb8a93
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 135234034413394 wei
+Boosted gas price: 162280841296072 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x5916f886fef4047087ba22ec34925421bfcd67294426622a7cc9f3a5c65943ca
+Processing transaction: 0x5916f886fef4047087ba22ec34925421bfcd67294426622a7cc9f3a5c65943ca
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 162280841296072 wei
+Boosted gas price: 194737009555286 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x6d5ac6c02c8b597cd1102d958ccbb3a9596410f1cd71aa748f6d65bb7d162369
+Processing transaction: 0x6d5ac6c02c8b597cd1102d958ccbb3a9596410f1cd71aa748f6d65bb7d162369
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 194737009555286 wei
+Boosted gas price: 233684411466343 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xecb043df2ebc3fb74f2a1dd887527f376724fca95b6f5227c7bacf58133156ed
+Processing transaction: 0xecb043df2ebc3fb74f2a1dd887527f376724fca95b6f5227c7bacf58133156ed
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 233684411466343 wei
+Boosted gas price: 280421293759611 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xb7d676af5405211464a43169f89dc4b8a28087510377bd42c9cd8611ff4097c0
+Processing transaction: 0xb7d676af5405211464a43169f89dc4b8a28087510377bd42c9cd8611ff4097c0
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 280421293759611 wei
+Boosted gas price: 336505552511533 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xfedf915f97b51a078db6b3516ef21bab3811fd83495efe8f4d9dd9128a94d2a5
+Processing transaction: 0xfedf915f97b51a078db6b3516ef21bab3811fd83495efe8f4d9dd9128a94d2a5
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 336505552511533 wei
+Boosted gas price: 403806663013839 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x9604c639831f830e34582067bde581de0c8fab2299d957a6847429474314dcf0
+Processing transaction: 0x9604c639831f830e34582067bde581de0c8fab2299d957a6847429474314dcf0
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 403806663013839 wei
+Boosted gas price: 484567995616606 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xbe4466d50a95ef44b53291a97816ffc7bfffd5625d0b09124b0b8a43ed376b5d
+Processing transaction: 0xbe4466d50a95ef44b53291a97816ffc7bfffd5625d0b09124b0b8a43ed376b5d
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 484567995616606 wei
+Boosted gas price: 581481594739927 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xacaa4de5168d675baf7b859e5e9a56922ba1eb5cd5fffd50e7581bdf22e42f25
+Processing transaction: 0xacaa4de5168d675baf7b859e5e9a56922ba1eb5cd5fffd50e7581bdf22e42f25
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 581481594739927 wei
+Boosted gas price: 697777913687912 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x9ace90f51aa5ba2d6e4317e943b3beecf9f87aa0cf584da27375c3693929589a
+Processing transaction: 0x9ace90f51aa5ba2d6e4317e943b3beecf9f87aa0cf584da27375c3693929589a
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 697777913687912 wei
+Boosted gas price: 837333496425494 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x1b17fb58fba0aeeb40ce99848aef956ac399ebe78957682c00003dc1e56f0617
+Processing transaction: 0x1b17fb58fba0aeeb40ce99848aef956ac399ebe78957682c00003dc1e56f0617
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 837333496425494 wei
+Boosted gas price: 1004800195710592 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xbc1f09543a8fa1e29751f804dfdbc873edcfeb9e81e445b1dc9640b93a84e2bb
+Processing transaction: 0xbc1f09543a8fa1e29751f804dfdbc873edcfeb9e81e445b1dc9640b93a84e2bb
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 1004800195710592 wei
+Boosted gas price: 1205760234852710 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xf241fde446182fc1912131b214bcbad24c35c8a45c6516c1f09b25d8844192da
+Processing transaction: 0xf241fde446182fc1912131b214bcbad24c35c8a45c6516c1f09b25d8844192da
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 1205760234852710 wei
+Boosted gas price: 1446912281823252 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x8d03225241ab360152bd21d9de09ed7a0afd67b2ab8238ab1b2ee9191e32d33a
+Processing transaction: 0x8d03225241ab360152bd21d9de09ed7a0afd67b2ab8238ab1b2ee9191e32d33a
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 1446912281823252 wei
+Boosted gas price: 1736294738187902 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xf1f9ab99dbae6639701ecd5705e11d8612981781e945e0497ecbe3012124db8f
+Processing transaction: 0xf1f9ab99dbae6639701ecd5705e11d8612981781e945e0497ecbe3012124db8f
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 1736294738187902 wei
+Boosted gas price: 2083553685825482 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xd42e54598263662589bf65ac72ce591f311e41f7243cd42e6d7d07dbde2aec8d
+Processing transaction: 0xd42e54598263662589bf65ac72ce591f311e41f7243cd42e6d7d07dbde2aec8d
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2083553685825482 wei
+Boosted gas price: 2500264422990578 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x5e6371d6a647563d7127653455b1f29b73707671f896aeff6732cff3695dbf7d
+Processing transaction: 0x5e6371d6a647563d7127653455b1f29b73707671f896aeff6732cff3695dbf7d
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 2500264422990578 wei
+Boosted gas price: 3000317307588693 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x45f74d5239bff99f2912da0770d523ddb794cc858ea7c2a432cd8b406067ec3c
+Processing transaction: 0x45f74d5239bff99f2912da0770d523ddb794cc858ea7c2a432cd8b406067ec3c
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 3000317307588693 wei
+Boosted gas price: 3600380769106431 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x54a4fbce6e8aacc1ddab0b2131a25a5e7e7436594daad8b226512487333370ac
+Processing transaction: 0x54a4fbce6e8aacc1ddab0b2131a25a5e7e7436594daad8b226512487333370ac
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 3600380769106431 wei
+Boosted gas price: 4320456922927717 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xfa349ec2352f1d4723c31268785e8fe62cdc4c82b097db7cb06501a266e74acd
+Processing transaction: 0xfa349ec2352f1d4723c31268785e8fe62cdc4c82b097db7cb06501a266e74acd
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 4320456922927717 wei
+Boosted gas price: 5184548307513260 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x7814d835430f76857c5ba15eb3281a062dfddd331547d828502e431e14bc2ab8
+Processing transaction: 0x7814d835430f76857c5ba15eb3281a062dfddd331547d828502e431e14bc2ab8
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 5184548307513260 wei
+Boosted gas price: 6221457969015912 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xd546a3e15f6df849815922d3d7390f69d3588b17a4b6b1849cc608196933d078
+Processing transaction: 0xd546a3e15f6df849815922d3d7390f69d3588b17a4b6b1849cc608196933d078
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 6221457969015912 wei
+Boosted gas price: 7465749562819094 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xc3067519856a21570ef9f8dc6e3ea4f18d36b15531d55aed5e21574273681541
+Processing transaction: 0xc3067519856a21570ef9f8dc6e3ea4f18d36b15531d55aed5e21574273681541
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 7465749562819094 wei
+Boosted gas price: 8958899475382912 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x8f7364eed28897dcd78ae38fb8862ebc93bcc2dd3f01e016051b6574578a098a
+Processing transaction: 0x8f7364eed28897dcd78ae38fb8862ebc93bcc2dd3f01e016051b6574578a098a
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 8958899475382912 wei
+Boosted gas price: 10750679370459494 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x4aecd87e876b0fb1a068450fcc753a1168578c7cb8004ec239868a41572316be
+Processing transaction: 0x4aecd87e876b0fb1a068450fcc753a1168578c7cb8004ec239868a41572316be
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 10750679370459494 wei
+Boosted gas price: 12900815244551392 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xbfab41e5a9f6445ed10ff401932aac851b51d197d8799ae32cba82c028460c28
+Processing transaction: 0xbfab41e5a9f6445ed10ff401932aac851b51d197d8799ae32cba82c028460c28
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 12900815244551392 wei
+Boosted gas price: 15480978293461670 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x7777c712292f7fd141c3b9db091d3ed7b0cee41ea5e77b9e945da087b4c9292c
+Processing transaction: 0x7777c712292f7fd141c3b9db091d3ed7b0cee41ea5e77b9e945da087b4c9292c
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 15480978293461670 wei
+Boosted gas price: 18577173952154004 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x911bb4f7ced64b631cdbd460c9308e8ec2a1bb8ccec496bb39acdbc71c4ac8bd
+Processing transaction: 0x911bb4f7ced64b631cdbd460c9308e8ec2a1bb8ccec496bb39acdbc71c4ac8bd
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 18577173952154004 wei
+Boosted gas price: 22292608742584804 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0xb0a3ce097796204fcbacb994b40958213d7ec3b26eba59642299c237cadf512c
+Processing transaction: 0xb0a3ce097796204fcbacb994b40958213d7ec3b26eba59642299c237cadf512c
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 22292608742584804 wei
+Boosted gas price: 26751130491101764 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x521583964f5e1b4b1d3ba461294a824b72b51723923fd9de08b3605357ba0601
+Processing transaction: 0x521583964f5e1b4b1d3ba461294a824b72b51723923fd9de08b3605357ba0601
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 26751130491101764 wei
+Boosted gas price: 32101356589322116 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x3552b096d0b26380d684529225cf5925bfa4a0d592141fa9630cd0148b14c024
+Processing transaction: 0x3552b096d0b26380d684529225cf5925bfa4a0d592141fa9630cd0148b14c024
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 32101356589322116 wei
+Boosted gas price: 38521627907186539 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x9023df1061b1937d90c361151ca697e7ba1ea225f4001887c4c22eae96bb5f90
+Processing transaction: 0x9023df1061b1937d90c361151ca697e7ba1ea225f4001887c4c22eae96bb5f90
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 38521627907186539 wei
+Boosted gas price: 46225953488623846 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x7d3d67a785885a5523b7aa6e9c44113f15e9bb955b299b19fbd0f81d80a14465
+Processing transaction: 0x7d3d67a785885a5523b7aa6e9c44113f15e9bb955b299b19fbd0f81d80a14465
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 46225953488623846 wei
+Boosted gas price: 55471144186348615 wei
+Front-run transaction created and submitted!
+Front-run transaction sent! Hash: 0x756a4383f03ad1f0c66935654fd1f6f80367607fe9a043b7965fe9eb54e846ef
+Processing transaction: 0x756a4383f03ad1f0c66935654fd1f6f80367607fe9a043b7965fe9eb54e846ef
+Transaction to: Some(0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0)
+Target contract: 0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+Transaction targets our contract!
+Input data: ed05084e
+DETECTED setWinner() call! Preparing front-run...
+Original gas price: 55471144186348615 wei
+Boosted gas price: 66565373023618338 wei
+Front-run transaction created and submitted!
+Failed to send front-run transaction: MiddlewareError(JsonRpcClientError(JsonRpcError(JsonRpcError { code: -32003, message: "Insufficient funds for gas * price + value", data: None })))

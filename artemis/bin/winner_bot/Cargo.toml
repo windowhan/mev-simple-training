@@ -7,5 +7,5 @@ edition = "2021"
 artemis-core = { path = "../../crates/artemis-core" }
 winner_snipe = { path = "../../crates/strategies/winner_snipe" }
 ethers = { workspace = true }
-tokio = { version = "1", features = ["macros","rt-multi-thread"] }
-anyhow = "1"
+anyhow = { workspace = true }
+tokio = { workspace = true }
