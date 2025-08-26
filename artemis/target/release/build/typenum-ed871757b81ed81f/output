@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/hojunghan/Desktop/Zellic-Tasks/mev-simple-training/artemis/target/release/build/typenum-ed871757b81ed81f/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/hojunghan/Desktop/Zellic-Tasks/mev-simple-training/artemis/target/release/build/typenum-ed871757b81ed81f/out/op.rs

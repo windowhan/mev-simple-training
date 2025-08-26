@@ -1,0 +1,21 @@
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.24s
+     Running `target/debug/winner_bot`
+🚀 Starting Winner Bot!
+🎯 Target contract: 0xe7f1…0512
+🤖 Bot address: 0x7099…79c8
+🔧 Setting up engine...
+▶️  Starting engine...
+👂 Listening for transactions...
+🔍 Processing transaction: 0xfaebe8377939ef271b9bf15f611908f7615c2eb4d0ab207e998fbe12ef3a9538
+📍 Transaction to: Some(0xe7f1725e7734ce288f8367e1bb143e90bb3f0512)
+🎯 Target contract: 0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+✅ Transaction targets our contract!
+📝 Input data: ed05084e
+🚨 DETECTED setWinner() call! Preparing front-run...
+💰 Original gas price: 5000000000 wei
+🚀 Boosted gas price: 6000000000 wei
+✨ Front-run transaction created and submitted!

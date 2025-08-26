@@ -1,0 +1,34 @@
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+warning: field `my_address` is never read
+  --> crates/strategies/winner_snipe/src/lib.rs:14:5
+   |
+12 | pub struct WinnerSnipe {
+   |            ----------- field in this struct
+13 |     target_contract: Address,
+14 |     my_address: Address,
+   |     ^^^^^^^^^^
+   |
+   = note: `WinnerSnipe` has derived impls for the traits `Clone` and `Debug`, but these are intentionally ignored during dead code analysis
+   = note: `#[warn(dead_code)]` on by default
+
+warning: `winner_snipe` (lib) generated 1 warning
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.16s
+     Running `target/debug/winner_bot`
+🚀 Starting Winner Bot!
+🎯 Target contract: 0xbec4…0f25
+🤖 Bot address: 0x7099…79c8
+🔧 Setting up engine...
+▶️  Starting engine...
+👂 Listening for transactions...
+🔍 Processing transaction: 0x463a52380afb49697a0e627c72214222933a51617f33764835442204d1ed0357
+📍 Transaction to: Some(0xbec49fa140acaa83533fb00a2bb19bddd0290f25)
+🎯 Target contract: 0xbec49fa140acaa83533fb00a2bb19bddd0290f25
+✅ Transaction targets our contract!
+📝 Input data: ed05084e
+🚨 DETECTED setWinner() call! Preparing front-run...
+💰 Original gas price: 10000000000 wei
+🚀 Boosted gas price: 12000000000 wei
+✨ Front-run transaction created and submitted!

@@ -1,0 +1,28 @@
+warning: virtual workspace defaulting to `resolver = "1"` despite one or more workspace members being on edition 2021 which implies `resolver = "2"`
+note: to keep the current resolver, specify `workspace.resolver = "1"` in the workspace root's manifest
+note: to use the edition 2021 resolver, specify `workspace.resolver = "2"` in the workspace root's manifest
+note: for more details see https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+warning: field `my_address` is never read
+  --> crates/strategies/winner_snipe/src/lib.rs:16:5
+   |
+14 | pub struct WinnerSnipe {
+   |            ----------- field in this struct
+15 |     target_contract: Address,
+16 |     my_address: Address,
+   |     ^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: `winner_snipe` (lib) generated 1 warning
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.17s
+     Running `target/debug/winner_bot`
+🚀 Starting Winner Bot!
+🎯 Target contract: 0xe7f1…0512
+🤖 Bot address: 0x7099…79c8
+🔧 Setting up engine...
+▶️  Starting engine...
+👂 Listening for transactions...
+🔍 Processing transaction: 0xe45ef8346886ff46a87349d973f67038ad1f8d972bcff652159ff0ae157258e1
+📍 Transaction to: None
+🎯 Target contract: 0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+⏭️  Transaction not for our target contract, skipping...

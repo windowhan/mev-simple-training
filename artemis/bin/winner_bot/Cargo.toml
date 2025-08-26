@@ -1,0 +1,11 @@
+[package]
+name = "winner_bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+artemis-core = { path = "../../crates/artemis-core" }
+winner_snipe = { path = "../../crates/strategies/winner_snipe" }
+ethers = { workspace = true }
+tokio = { version = "1", features = ["macros","rt-multi-thread"] }
+anyhow = "1"
